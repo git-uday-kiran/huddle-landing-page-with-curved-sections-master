@@ -1,0 +1,395 @@
+
+body {
+  background-color: white;
+}
+
+.window {
+  margin: 20px;
+
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: white;
+  border: 1px solid white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #bbbcbd;
+}
+
+.head {
+  font-family: 'Poppins', sans-serif;
+  color: hsl(192, 100%, 9%);
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.desc {
+  font-family: "Open Sans", sans-serif;
+  color: hsl(192, 100%, 9%);
+  opacity: 0.7;
+}
+
+.top {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+
+  margin: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.title {
+  margin: 5px;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+}
+
+.title * {
+  margin: 3px;
+}
+
+.title img {
+  height: 20px;
+}
+
+.price-tag {
+  border: 1px solid red;
+  margin: 5px;
+  padding: 5px 15px;
+  border-width: 2px;
+  border-radius: 100px;
+  color: hsl(321, 100%, 78%);
+  border-color: hsl(321, 100%, 78%);
+  font-size: 10px;
+  align-self: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro .desc {
+  font-weight: 600;
+  max-width: 400px;
+  text-align: center;
+  font-size: 12px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+
+.button {
+  color: white;
+  background-color: hsl(322, 100%, 60%);
+  margin-top: 10px;
+  padding: 15px 40px;
+  border-radius: 50px;
+  box-shadow:1px 1px 10px #b0b0b0;
+}
+
+.screen-mockup {
+  max-width: 600px;
+  margin-top: 40px;
+}
+
+/* ------------------------------------------------------------- */
+
+.views {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.views * {
+  text-align: left;
+}
+
+.views img {
+  height: 24px;
+}
+
+.views .head {
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.views .desc {
+  margin-top: -25px;
+  font-size: 14px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.bg-one {
+  margin-top: 50px;
+}
+
+.bg-one .bg-top, .bg-one .bg-bottom {
+  max-width: 850px;
+  margin-bottom: -5px;
+}
+
+.grow-tog {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: hsl(207, 100%, 98%);
+}
+
+.grow-tog img {
+  height: 250px;
+  padding-right: 100px;
+}
+
+.grow-tog .left {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.grow-tog .left .head {
+  text-align: left;
+  font-size: 22px;
+}
+
+.grow-tog .left .desc {
+  text-align: left;
+  font-size: 11px;
+  padding-right: 30px;
+}
+
+.grow-tog .left img {
+  width: 300px;
+}
+
+/* -------------------------------------------------------- */
+
+.middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 50px;
+}
+
+.middle .left img{
+  width : 300px;
+  padding-left: 70px;
+}
+
+
+.middle .right {
+  padding-left: 50px;
+}
+
+.middle .right .head {
+  font-size: 22px;
+  text-align: left;
+}
+
+.middle .right .desc {
+  font-size: 11px;
+  padding-right: 60px;
+  opacity: 0.8;
+}
+
+/* ---------------------------------------------------- */
+
+.bg-two {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-two .bg-top, .bg-two .bg-bottom {
+  max-width: 850px;
+}
+
+.your-user .right img{
+  max-width: 300px;
+}
+
+.your-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(207, 100%, 98%);
+}
+
+.your-user .left {
+  padding-left: 50px;
+}
+
+.your-user .head {
+  text-align: left;
+  font-size: 22px;
+}
+
+.your-user .desc {
+  font-size: 11px;
+  padding-right: 30px;
+  opacity: .8;
+}
+
+.your-user .right {
+  padding-right: 60px;
+  margin: 30px;
+}
+
+/* ----------------------------------------- */
+
+.bottom {
+  margin-top: 35px;
+}
+
+.bottom .bg-top {
+  max-width: 852px;
+  margin-bottom: -10px;
+  margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: hsl(192, 100%, 9%);
+}
+
+.footer .left *{
+  color: white;
+}
+
+.footer .left {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.footer .left .desc {
+  font-size: 11px;
+  padding-right: 100px;
+}
+
+.footer #phone, .footer #email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.footer #phone .phone, .footer #email .email {
+  margin-right: 10px;
+  max-width: 15px;
+}
+
+.footer .right {
+  padding-top: 50px;
+}
+
+.footer .right *{
+  color: white;
+}
+
+.footer .right .head {
+  font-size: 14px;
+}
+
+.footer .right .desc {
+  font-size: 11px;
+  padding-right: 200px;
+}
+
+.footer .right .head {
+  text-align: left;
+}
+
+.footer .subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.subscribe .box {
+  height: 30px;
+  background-color: white;
+  width: 170px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.subscribe .button {
+  height: 5px;
+  font-size: 11px;
+  padding-top: 10px;
+  align-self: center;
+  border-radius: 5px;
+}
+
+.symbols * {
+  max-width: 20px;
+  margin: 50px 5px;
+}
+
+.uday {
+  background: hsl(192, 100%, 9%);
+  min-width: 852px;
+  text-align: center;
+  color: gray;
+  font-size: 11px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid gray;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+@media (max-width: 500px) {
+  .intro .button {
+    font-size: 84%;
+    width: 30%;
+  }
+}
